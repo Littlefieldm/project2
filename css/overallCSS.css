@@ -58,11 +58,11 @@ p{
   background-image: url(homebg.png);
 }
 
-#homeimg {
+.homeimg {
   float: right;
 }
 
-#clear{
+.clear{
   clear: both;
 }
 
