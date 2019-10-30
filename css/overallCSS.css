@@ -1,16 +1,26 @@
 nav {
   background-color: #333;
   padding: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav a{
   color: #f2f2f2;
   text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
 }
 
 nav a:hover{
   color: #ff0000;
   background-color: #f2f2f2;
+}
+
+nav li{
+  display: inline;
 }
 
 h1{
@@ -37,36 +47,48 @@ p{
   padding:.5rem;
 }
 
-#navset {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+ul{
+  margin-left: 2em;
+  list-style-type: square;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
-#navset li{
-  display: inline;
-}
-
-#navset a{
-  display: inline-block;
-  padding: 1rem;
-}
-
-#homebody {
-  background-image: url(homebg.png);
+#homebg {
+  background-image: url(../images/homebg.png);
 }
 
 .homeimg {
   float: right;
+  padding-right: 1em;
+}
+
+.cyberimg{
+  padding-top: 1em;
 }
 
 .clear{
   clear: both;
 }
 
-#resumebody h2{
+#nameinfo {
+  text-align: center;
+}
+
+.sections p{
+  padding-top: 0em;
+  padding-bottom: .5em;
+}
+
+.headder{
   text-decoration: underline;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+.subheader{
+  padding-bottom: 0em;
+  padding-top: 0em;
 }
 
 #fixedpage {
@@ -75,17 +97,9 @@ p{
   margin: auto;
 }
 
-#resumeinfo {
+#cyberpage {
   text-align: center;
-}
-
-.resumelist {
-  padding-left: 1rem;
-}
-
-#cyberbody {
-  text-align: center;
-  background-image: url(cyberbg.png);
+  background-image: url(../images/cyberbg.png);
   font-family: 'Roboto Mono',Courier, monospace;
   color: #f2f2f2;
 }
